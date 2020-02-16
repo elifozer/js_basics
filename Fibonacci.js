@@ -3,7 +3,6 @@
 // Fibonacci sayilari kendinden bir ve iki onceki Fibonacci sayisinin toplamina esittir
 // Yani, n = (n-1) + (n-2)
 // Base, 1. ve 2. Fibonacci sayilari 1
-
 function getFibRec(num){
     while(num > 2){
         return getFibRec(num-1) + getFibRec(num-2)
@@ -17,8 +16,8 @@ console.log(getFibRec(2));
 console.log(getFibRec(5));
 console.log(getFibRec(6));
 
-// Recursive olmadan nasil yaparim
 
+// Recursive olmadan nasil yaparim
 function getFib(num){
     let myFib = [1, 1];
 

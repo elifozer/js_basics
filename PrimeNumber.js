@@ -6,7 +6,6 @@
 // Kalan 0 ise asal degil, kalan yoksa 2'yi bir artirir tekrar deneriz
 // Bu sekilde sayinin kendisine kadar bolerek ilerleriz
 // En son hep kalan olduysa, yani mod hic bir sayi icin 0 olmadiysa asaldir
-
 function isPrime(num){
     let divisor = 2;
 

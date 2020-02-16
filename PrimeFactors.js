@@ -7,7 +7,6 @@
 // else edilen sonucu (n/2) 2/ye bolerek devam ederiz
 // kalan varsa 2'yi 1 artirip sayiyi bu sefer en bastan, 3'e bolerek ilerleriz
 // bu sekilde en son asal carpanlari bulmus oluruz
-
 function findPrimeFactors(num){
     let factors = [];
     let divisor = 2;

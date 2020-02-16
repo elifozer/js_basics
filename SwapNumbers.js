@@ -22,6 +22,7 @@ function swapNoTemp(num1, num2){
 
 swapNoTemp(65, 9);
 
+
 // Daha temiz cozumu
 // Diyelim sayilar 10 ve 7
 // num2 = 7 - 10 = -3
